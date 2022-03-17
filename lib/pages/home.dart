@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_icons/flutter_icons.dart';
 import 'package:healthng/pages/covid.dart';
 import 'package:healthng/pages/explore.dart';
+import 'package:healthng/pages/locate.dart';
 import 'package:provider/provider.dart';
 
 class HomePage extends StatefulWidget {
@@ -69,7 +70,7 @@ class _HomePageState extends State<HomePage> {
         children: <Widget>[
           Explore(),
           Covid(),
-         // BlogPage(),
+          MapLauncherDemo()
           //BookmarkPage(),
           //ProfilePage(),
         ],
